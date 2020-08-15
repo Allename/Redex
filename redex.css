@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar{
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+hr{
+    color: grey;
+    margin-top: 15px;
+    
+}
+
+.blue{
+    color: #0070DF;
+    font-style: bold;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+label {
+    background-color: #0070DF;
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: medium;
+    font-size: 24px;   
+    line-height: 28px;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    padding-top: 70px;
+}
+
+.sick{
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.sick p{
+    font-family: inherit;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.sick h1{
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: 500px;
+    padding-left: 20px;
+}
+
+.sick h2{
+    color: lightgrey;
+    font-family: inherit;
+    font-weight: lighter;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.raise{
+    color: #0070DF;
+}
+
+.form{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.form h3{
+    font-family: inherit;  
+}
+
+.form input[type=Email]{
+    border: hidden lightgrey;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.form input[type=submit]{
+    background-color:#0070DF;
+    font-family: inherit;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+input[type=submit]:hover{
+    background-color: lightblue;
+}
+
+.device{
+    padding-left: 170px;
+}
+
+
+footer{
+    color: lightgrey;
+    text-align: center;
+}
